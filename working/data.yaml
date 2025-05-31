@@ -1,0 +1,10 @@
+names:
+- vehicle
+- bike
+- motobike
+- traffic_light
+- traffic_sign
+nc: 5
+path: working\yolo_data
+train: C:\RR_vs_AI3\working\yolo_data\images\train
+val: C:\RR_vs_AI3\working\yolo_data\images\val
