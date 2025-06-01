@@ -8,7 +8,7 @@ def setup_model(weights_path="yolo11n.pt"):
     model.to(device)
     return model
 
-def train_model(model, data_yaml_path, epochs=30,imgsz=640):
+def train_model(model, data_yaml_path, epochs=60,imgsz=640):
     results = model.train(
         data=data_yaml_path,
         epochs=epochs,
